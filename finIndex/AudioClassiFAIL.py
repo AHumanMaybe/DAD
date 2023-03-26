@@ -52,7 +52,7 @@ def similarity(a,b):
 
     return certainty
 
-certainty = similarity(compare_audio('7061-6-0-0.wav'),compare_audio('7061-6-0-0.wav'))
+certainty = similarity(compare_audio('7061-6-0-0.wav'),compare_audio('7383-3-0-0.wav'))
 
 data = {'detection':certainty,
         'node_id':node_id,
